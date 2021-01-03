@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="386.0" layoutX="199.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/assets/Daco_1555241.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="66.0" layoutX="56.0" layoutY="689.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/assets/trophy.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="72.0" layoutX="191.0" layoutY="682.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/assets/question.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="pane1" layoutX="250.0" layoutY="266.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Arc id="circle1arc1" fx:id="purple1" fill="#1f93ff00" layoutX="108.0" layoutY="79.0" length="100.0" radiusX="70.0" radiusY="70.0" stroke="#8900ff" strokeType="INSIDE" strokeWidth="10.0" />
+                  <Arc id="circle1arc1" fx:id="blue1" fill="#1f93ff00" layoutX="99.0" layoutY="79.0" length="100.0" radiusX="70.0" radiusY="70.0" startAngle="90.0" stroke="#00ecff" strokeType="INSIDE" strokeWidth="10.0" />
+                  <Arc id="circle1arc1" fx:id="yellow1" fill="#1f93ff00" layoutX="99.0" layoutY="87.0" length="100.0" radiusX="70.0" radiusY="70.0" startAngle="180.0" stroke="#fffe00" strokeType="INSIDE" strokeWidth="10.0" />
+                  <Arc id="circle1arc1" fx:id="pink1" fill="#1f93ff00" layoutX="108.0" layoutY="87.0" length="100.0" radiusX="70.0" radiusY="70.0" startAngle="270.0" stroke="#ff008d" strokeType="INSIDE" strokeWidth="10.0" />
+               </children>
+            </Pane>
+           
+         </children></AnchorPane>
+   </center>
+</BorderPane>

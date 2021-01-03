@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="300.0" maxWidth="700.0" minHeight="300.0" minWidth="700.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Doublecrosscontroller">
+   <children>
+      <Pane layoutX="182.0" layoutY="48.0" prefHeight="205.0" prefWidth="337.0" style="-fx-background-color: transparent;">
+         <children>
+            <Pane fx:id="pane2" layoutX="187.0" layoutY="36.0" prefHeight="126.0" prefWidth="82.0">
+               <children>
+                  <Line fx:id="pinksmall" endX="-100.00001525878906" endY="38.399993896484375" layoutX="144.0" layoutY="19.0" startX="-100.0" startY="4.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="purplesmall" endX="-100.00001525878906" endY="38.399993896484375" layoutX="143.0" layoutY="24.0" startX="-135.59999084472656" startY="38.399993896484375" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="yellowsmall" endX="-100.00001525878906" endY="38.399993896484375" layoutX="144.0" layoutY="63.0" startX="-100.0" startY="4.0" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="bluesmall" endX="-80.66665649414062" endY="38.399993896484375" layoutX="177.0" layoutY="24.0" startX="-133.00001525878906" startY="38.399993896484375" stroke="#00fbff" strokeLineCap="ROUND" strokeWidth="15.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="pane1" layoutX="24.0" layoutY="14.0" prefHeight="177.0" prefWidth="132.0">
+               <children>
+                  <Line fx:id="purplebig" endX="-47.000030517578125" endY="38.399993896484375" layoutX="201.0" layoutY="47.0" startX="-133.00001525878906" startY="38.399993896484375" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="bluebig" endX="-77.79998779296875" endY="38.4000244140625" layoutX="138.0" layoutY="47.0" startX="-161.3333282470703" startY="38.4000244140625" stroke="#00fbff" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="yellowbig" endX="-100.00001525878906" endY="38.399993896484375" layoutX="168.0" layoutY="43.0" startX="-100.0" startY="-22.0" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="15.0" />
+                  <Line fx:id="pinkbig" endX="-100.00003051757812" endY="48.333343505859375" layoutX="168.0" layoutY="112.0" startX="-100.0" startY="-22.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fx:id="colorswitchball" fitHeight="41.0" fitWidth="41.0" layoutX="335.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/colour%20switch.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="colorswitch" fill="#2197ff00" layoutX="356.0" layoutY="43.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
