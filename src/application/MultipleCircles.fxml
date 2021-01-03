@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Multiplecirclecontroller">
+	<!-- TODO Add Nodes -->
+	<Pane fx:id="circle1" layoutX="244.0" layoutY="54.0" maxHeight="229.0" maxWidth="237.0" prefHeight="210.0" prefWidth="212.0" style="-fx-background-color: transparent;">
+               <children>
+                  <Arc fx:id="pink1" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="140.0" radiusY="140.0" startAngle="225.0" stroke="#ff0055" strokeWidth="20.0" />
+                  <Arc fx:id="blue1" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="140.0" radiusY="140.0" startAngle="315.0" stroke="#00fbff" strokeWidth="20.0" />
+                  <Arc fx:id="purple1" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="140.0" radiusY="140.0" startAngle="135.0" stroke="#8300ff" strokeWidth="20.0" />
+                  <Arc fx:id="yellow1" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="140.0" radiusY="140.0" startAngle="45.0" stroke="#fffa00" strokeWidth="20.0" />
+         <Arc fx:id="pink2" fill="#2197ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="225.0" stroke="#ff0059" strokeWidth="15.0" />
+         <Arc fx:id="blue2" fill="#2197ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="315.0" stroke="#00fbff" strokeWidth="15.0" />
+         <Arc fx:id="purple2" fill="#2197ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="135.0" stroke="#8300ff" strokeWidth="15.0" />
+         <Arc fx:id="yellow2" fill="#2197ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="45.0" stroke="#fffa00" strokeWidth="15.0" />
+         <Circle fx:id="starcircle" fill="#2197ff00" layoutX="106.0" layoutY="105.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         <ImageView fx:id="star" fitHeight="41.0" fitWidth="41.0" layoutX="85.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../assets/star.png" />
+            </image>
+         </ImageView>
+               </children>
+            </Pane>
+</AnchorPane>

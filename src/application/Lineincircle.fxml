@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LineinCircleController">
+	<!-- TODO Add Nodes -->
+	<Pane fx:id="circle1" layoutX="245.0" layoutY="38.0" prefHeight="204.0" prefWidth="210.0" style="-fx-background-color: transparent;">
+               <children>
+                  <Arc fx:id="pinkarc" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="225.0" stroke="#ff0055" strokeWidth="15.0" />
+                  <Arc fx:id="bluearc" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="315.0" stroke="#00fbff" strokeWidth="15.0" />
+                  <Arc fx:id="purplearc" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="135.0" stroke="#8300ff" strokeWidth="15.0" />
+                  <Arc fx:id="yellowarc" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="45.0" stroke="#fffa00" strokeWidth="15.0" />
+         <Line fx:id="pinkline" endX="6.999969482421875" endY="11.0" layoutX="94.0" layoutY="226.0" startX="6.999969482421875" startY="-55.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="5.0" />
+         <Line fx:id="purpleline" endX="-25.000030517578125" layoutX="59.0" layoutY="104.0" startX="-81.33332824707031" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="5.0" />
+         <Line fx:id="blueline" endX="59.999969482421875" endY="1.52587890625E-5" layoutX="170.0" layoutY="102.0" startX="3.666656494140625" stroke="#00fbff" strokeLineCap="ROUND" strokeWidth="5.0" />
+         <Line fx:id="yellowline" endX="-1.000030517578125" endY="9.333328247070312" layoutX="105.0" layoutY="39.0" startX="-1.000030517578125" startY="-60.666656494140625" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="5.0" />
+         <ImageView fx:id="star" fitHeight="41.0" fitWidth="41.0" layoutX="80.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../assets/star.png" />
+            </image>
+         </ImageView>
+         <Circle fx:id="starcircle" fill="#1f93ff00" layoutX="101.0" layoutY="102.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+               </children>
+            </Pane>
+</AnchorPane>

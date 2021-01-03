@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="350.0" prefWidth="736.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Crossincirclecontroller">
+	<!-- TODO Add Nodes -->
+	<Pane fx:id="outerpane" layoutX="268.0" layoutY="91.0" prefHeight="213.0" prefWidth="213.0" style="-fx-background-color: transparent;">
+               <children>
+                  <Arc fx:id="pinkcir" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="225.0" stroke="#ff0055" strokeWidth="13.0" />
+                  <Arc fx:id="bluecir" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="315.0" stroke="#00fbff" strokeWidth="13.0" />
+                  <Arc fx:id="purplecir" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="135.0" stroke="#8300ff" strokeWidth="13.0" />
+                  <Arc fx:id="yellowcir" fill="#1f93ff00" layoutX="105.0" layoutY="104.0" length="90.0" radiusX="130.0" radiusY="130.0" startAngle="45.0" stroke="#fffa00" strokeWidth="13.0" />
+         <Circle fx:id="starcircle" fill="#1f93ff00" layoutX="102.0" layoutY="106.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         <ImageView fx:id="star" fitHeight="42.0" fitWidth="39.0" layoutX="87.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../assets/star.png" />
+            </image>
+         </ImageView>
+               </children>
+            </Pane>
+   <ImageView fx:id="colorswitchball" fitHeight="41.0" fitWidth="41.0" layoutX="354.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../assets/colour%20switch.png" />
+      </image>
+   </ImageView>
+   <Circle fx:id="colorswitch" fill="#2197ff00" layoutX="375.0" layoutY="14.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+   <Pane fx:id="innerpane" layoutX="393.0" layoutY="137.0" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: transparent;">
+      <children>
+         <Line fx:id="yellowline" endX="-63.00001525878906" layoutX="119.0" layoutY="3.0" startX="-63.0" startY="37.600006103515625" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="7.0" />
+         <Line fx:id="blueline" endX="-28.79998779296875" endY="37.600006103515625" layoutX="116.0" layoutY="5.0" startX="-63.0" startY="37.600006103515625" stroke="#00fbff" strokeLineCap="ROUND" strokeWidth="7.0" />
+         <Line fx:id="purpleline" endX="-34.39996337890625" endY="37.600006103515625" layoutX="87.0" layoutY="5.0" startX="-63.0" startY="37.600006103515625" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="7.0" />
+         <Line fx:id="pinkline" endX="-63.00001525878906" layoutX="119.0" layoutY="48.0" startX="-63.0" startY="37.600006103515625" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="7.0" />
+      </children>
+   </Pane>
+</AnchorPane>

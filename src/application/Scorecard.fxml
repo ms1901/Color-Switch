@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scorecardcontroller">
+   <children>
+      <ImageView fx:id="igm" fitHeight="144.0" fitWidth="248.0" layoutX="227.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/Daco_1555241.png" />
+         </image></ImageView>
+      <Circle fill="WHITE" layoutX="79.0" layoutY="61.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="menu" fitHeight="54.0" fitWidth="42.0" layoutX="58.0" layoutY="40.0" onMousePressed="#backtomenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/house-black-silhouette-without-door.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#444749" height="90.0" layoutX="-27.0" layoutY="162.0" stroke="BLACK" strokeType="INSIDE" width="732.0" AnchorPane.leftAnchor="-27.0" AnchorPane.rightAnchor="-5.0" />
+      <Label layoutX="287.0" layoutY="176.0" prefHeight="62.0" prefWidth="133.0" text="SCORE" textAlignment="JUSTIFY" textFill="#f8ebeb">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="CSLabel" layoutX="339.0" layoutY="252.0" prefHeight="62.0" prefWidth="80.0" text="0" textFill="#fff6f6">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9f00c" height="90.0" layoutX="-2.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="707.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-5.0" />
+      <Label layoutX="236.0" layoutY="338.0" text="BEST SCORE" textFill="#fff3f3">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="BSLabel" layoutX="339.0" layoutY="422.0" prefHeight="62.0" prefWidth="80.0" text="0" textFill="#fff5f5">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Circle fx:id="replay" fill="#7b8186" layoutX="540.0" layoutY="538.0" onMousePressed="#gameplay" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="62.0" fitWidth="86.0" layoutX="509.0" layoutY="507.0" onMousePressed="#gameplay" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/regame.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="TSLabel" layoutX="119.0" layoutY="526.0" prefHeight="62.0" prefWidth="119.0" text="0" textFill="#fff4f4">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="star1" fitHeight="35.0" fitWidth="36.0" layoutX="84.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/finalstar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star2" fitHeight="35.0" fitWidth="36.0" layoutX="119.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/finalstar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="star11" fitHeight="35.0" fitWidth="36.0" layoutX="150.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/finalstar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

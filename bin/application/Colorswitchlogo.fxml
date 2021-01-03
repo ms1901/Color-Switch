@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="482.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllerforgif">
+   <children>
+      <ImageView fitHeight="285.0" fitWidth="328.0" layoutX="77.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Dropbox/My%20PC%20(LAPTOP-96TGKNVQ)/Desktop/assets/colorswitch.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

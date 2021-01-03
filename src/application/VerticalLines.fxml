@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VerticalLinesController">
+   <children>
+      <Pane layoutX="15.0" layoutY="44.0" prefHeight="200.0" prefWidth="703.0" style="-fx-background-color: transparent;">
+         <children>
+            <Line fx:id="pink" endX="-100.0" endY="148.39999389648438" layoutX="171.0" layoutY="24.0" startX="-100.00003051757812" startY="-12.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="red" endX="-100.00001525878906" endY="160.66665649414062" layoutX="136.0" layoutY="26.0" startX="-100.0" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="blue" endX="-100.00003051757812" endY="157.66665649414062" layoutX="227.0" layoutY="31.0" startX="-100.0" startY="-3.4000015258789062" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="green" endX="-99.99996948242188" endY="166.3333282470703" layoutX="261.0" layoutY="19.0" startX="-99.99996948242188" startY="-5.6666717529296875" stroke="#00fbff" strokeLineCap="ROUND" strokeWidth="15.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

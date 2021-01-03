@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Triangleoutofcirclecontroller">
+   <children>
+      <Pane fx:id="outsidepane" layoutX="200.0" layoutY="10.0" prefHeight="280.0" prefWidth="320.0" style="-fx-background-color: transparent;">
+         <children>
+            <Line fx:id="yellowtri" endX="47.666656494140625" endY="179.0" layoutX="-18.0" layoutY="109.0" startX="47.66667175292969" startY="-105.5" stroke="#fffa00" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="pinktri" endX="317.0" endY="-117.99998474121094" layoutX="-19.0" layoutY="259.0" startX="48.333343505859375" startY="28.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line fx:id="purpletri" endX="44.66667175292969" endY="43.0" layoutX="-14.0" layoutY="-43.0" startX="312.6666564941406" startY="183.5" stroke="#8300ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Pane fx:id="insidepane1" layoutX="24.0" layoutY="30.0" prefHeight="229.0" prefWidth="194.0" style="-fx-background-color: transparent;">
+               <children>
+                  <Arc fx:id="purplecir" fill="#1f93ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="78.0" radiusY="78.0" startAngle="135.0" stroke="#8300ff" strokeWidth="10.0" />
+                  <Arc fx:id="pinkcir" fill="#1f93ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="78.0" radiusY="78.0" startAngle="225.0" stroke="#ff0055" strokeWidth="10.0" />
+                  <Arc fx:id="yellowcir" fill="#1f93ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="78.0" radiusY="78.0" startAngle="45.0" stroke="#fffa00" strokeWidth="10.0" />
+                  <Arc fx:id="bluecir" fill="#1f93ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="78.0" radiusY="78.0" startAngle="315.0" stroke="#00fbff" strokeWidth="10.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

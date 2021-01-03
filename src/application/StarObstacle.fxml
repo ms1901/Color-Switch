@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="Base" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StarController">
+ <children>
+      <Pane fx:id="starobs" layoutX="280.0" layoutY="67.0" prefHeight="200.0" prefWidth="207.0">
+         <children>
+            <Circle fx:id="starcircle1" fill="#1f93ff00" layoutX="100.0" layoutY="21.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star1" fitHeight="41.0" fitWidth="41.0" layoutX="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star3" fitHeight="41.0" fitWidth="41.0" layoutX="82.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle3" fill="#1f93ff00" layoutX="106.0" layoutY="180.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="starcircle2" fill="#1f93ff00" layoutX="105.0" layoutY="100.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star2" fitHeight="41.0" fitWidth="41.0" layoutX="85.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star4" fitHeight="41.0" fitWidth="41.0" layoutX="173.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle4" fill="#1f93ff00" layoutX="193.0" layoutY="100.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="starcircle5" fill="#1f93ff00" layoutX="21.0" layoutY="101.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star5" fitHeight="41.0" fitWidth="41.0" layoutX="1.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle6" fill="#1f93ff00" layoutX="186.0" layoutY="21.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star6" fitHeight="41.0" fitWidth="41.0" layoutX="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle7" fill="#1f93ff00" layoutX="186.0" layoutY="180.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star7" fitHeight="41.0" fitWidth="41.0" layoutX="166.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="star8" fitHeight="41.0" fitWidth="41.0" layoutX="2.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle8" fill="#1f93ff00" layoutX="22.0" layoutY="180.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fx:id="star9" fitHeight="41.0" fitWidth="41.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="starcircle9" fill="#1f93ff00" layoutX="23.0" layoutY="22.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

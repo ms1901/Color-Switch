@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Base" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#Ballup" onKeyReleased="#Balldown" prefHeight="693.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoadDisplayController">
+ <children>
+      <AnchorPane layoutX="-6.0" layoutY="-8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="718.0" style="-fx-background-color: black;">
+         <children>
+            <Circle fx:id="player" fill="#00fbff" layoutX="367.0" layoutY="579.0" onMousePressed="#up" onMouseReleased="#down" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fx:id="pause" fitHeight="61.0" fitWidth="54.0" layoutX="630.0" layoutY="22.0" onMouseClicked="#pausegamemenu" onMousePressed="#pausegamemenu" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/pause-button.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="score" layoutX="36.0" layoutY="14.0" prefHeight="70.0" prefWidth="78.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="48.0" />
+               </font>
+            </Label>
+            <Pane fx:id="CurrentObstaclepane" layoutX="9.0" layoutY="84.0" prefHeight="300.0" prefWidth="700.0" />
+            <Pane fx:id="RainbowPane" layoutX="91.0" layoutY="24.0" prefHeight="54.0" prefWidth="73.0">
+               <children>
+                  <ImageView fitHeight="41.0" fitWidth="64.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/rainbow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

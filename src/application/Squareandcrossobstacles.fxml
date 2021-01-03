@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Squarecontroller">
+   <children>
+      <Pane fx:id="pane3" layoutX="234.0" layoutY="470.0" prefHeight="200.0" prefWidth="253.0">
+         <children>
+            <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="259.0" layoutY="55.0" startX="-100.0" startY="-38.0" stroke="#7400ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="259.0" layoutY="132.0" startX="-100.0" startY="-38.0" stroke="#eeff00" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="259.0" layoutY="56.0" startX="-16.39996337890625" startY="38.4000244140625" stroke="#00eeff" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="174.0" layoutY="56.0" startX="-16.39996337890625" startY="38.4000244140625" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="204.0" layoutY="49.0" prefHeight="240.0" prefWidth="330.0">
+         <children>
+            <Line endX="100.0" layoutX="205.0" layoutY="22.0" startX="-92.80000305175781" stroke="#eeff00" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="-123.80000305175781" endY="184.39999389648438" layoutX="149.0" layoutY="11.0" startX="-44.29998779296875" startY="11.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="100.0" layoutX="122.0" layoutY="198.0" startX="-100.0" stroke="#00eeff" strokeLineCap="ROUND" strokeWidth="15.0" />
+            <Line endX="104.4000244140625" endY="20.800003051757812" layoutX="202.0" layoutY="1.0" startX="27.5" startY="197.0" stroke="#7400ff" strokeLineCap="ROUND" strokeWidth="15.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="28.0" layoutY="1.0" prefHeight="344.0" prefWidth="665.0">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="319.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="202.0" layoutY="323.0" prefHeight="134.0" prefWidth="317.0">
+         <children>
+            <Pane fx:id="pane1" layoutX="111.0" layoutY="4.0" prefHeight="126.0" prefWidth="82.0">
+               <children>
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="144.0" layoutY="19.0" startX="-100.0" startY="4.0" stroke="#eeff00" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="143.0" layoutY="24.0" startX="-135.59999084472656" startY="38.399993896484375" stroke="#7400ff" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.0" endY="38.399993896484375" layoutX="144.0" layoutY="62.0" startX="-100.0" startY="4.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="177.0" layoutY="24.0" startX="-133.00001525878906" startY="38.399993896484375" stroke="#00eeff" strokeLineCap="ROUND" strokeWidth="10.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" layoutX="193.0" layoutY="4.0" prefHeight="126.0" prefWidth="82.0">
+               <children>
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="144.0" layoutY="19.0" startX="-100.0" startY="4.0" stroke="#ff0055" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="143.0" layoutY="24.0" startX="-135.59999084472656" startY="38.399993896484375" stroke="#00eeff" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="144.0" layoutY="63.0" startX="-100.0" startY="4.0" stroke="#eeff00" strokeLineCap="ROUND" strokeWidth="10.0" />
+                  <Line endX="-100.00001525878906" endY="38.399993896484375" layoutX="177.0" layoutY="24.0" startX="-133.00001525878906" startY="38.399993896484375" stroke="#7400ff" strokeLineCap="ROUND" strokeWidth="10.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

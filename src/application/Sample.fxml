@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+
+<BorderPane maxHeight="600.0" maxWidth="700.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <right>
+
+      <AnchorPane prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+
+         <children>
+
+            <ImageView fitHeight="163.0" fitWidth="385.0" layoutX="171.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+
+               <image>
+
+                  <Image url="@../../assets/Daco_1555241.png" />
+
+               </image>
+
+            </ImageView>
+
+            <ImageView fx:id="Highscore" fitHeight="70.0" fitWidth="69.0" layoutX="70.0" layoutY="551.0" onMousePressed="#trophyclick" pickOnBounds="true" preserveRatio="true">
+
+               <image>
+
+                  <Image url="@../../assets/trophy.png" />
+
+               </image>
+
+            </ImageView>
+
+            <ImageView fx:id="rules" fitHeight="74.0" fitWidth="72.0" layoutX="224.0" layoutY="549.0" onMousePressed="#rulesclicked" pickOnBounds="true" preserveRatio="true">
+
+               <image>
+
+                  <Image url="@../../assets/question.png" />
+
+               </image>
+
+            </ImageView>
+
+            <Pane fx:id="pane1" layoutX="247.0" layoutY="269.0" prefHeight="159.0" prefWidth="204.0" style="-fx-background-color: black;">
+
+               <children>
+
+                  <Arc id="circle1arc1" fx:id="blue1" fill="#1f93ff00" layoutX="100.0" layoutY="79.0" length="100.0" radiusX="70.0" radiusY="70.0" startAngle="45.0" stroke="#00ecff" strokeWidth="12.0" />
+
+                  <Arc id="circle1arc1" fx:id="yellow1" fill="#1f93ff00" layoutX="100.0" layoutY="79.0" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="135.0" stroke="#fffe00" strokeWidth="12.0" />
+
+                  <Arc id="circle1arc1" fx:id="pink1" fill="#1f93ff00" layoutX="100.0" layoutY="79.0" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="225.0" stroke="#ff008d" strokeWidth="12.0" />
+
+                  <Arc id="circle1arc1" fx:id="purple1" fill="#1f93ff00" layoutX="100.0" layoutY="79.0" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="315.0" stroke="#8900ff" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="yellow12" fill="#1f93ff00" layoutX="101.0" layoutY="80.0" length="90.0" radiusX="50.0" radiusY="50.0" startAngle="135.0" stroke="#ff008d" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="blue12" fill="#1f93ff00" layoutX="101.0" layoutY="80.0" length="90.0" radiusX="50.0" radiusY="50.0" startAngle="45.0" stroke="#fffe00" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="pink12" fill="#1f93ff00" layoutX="101.0" layoutY="80.0" length="90.0" radiusX="50.0" radiusY="50.0" startAngle="225.0" stroke="#8900ff" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="purple12" fill="#1f93ff00" layoutX="101.0" layoutY="80.0" length="90.0" radiusX="50.0" radiusY="50.0" startAngle="315.0" stroke="#00ecff" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="purple11" fill="#1f93ff00" layoutX="99.0" layoutY="80.0" length="90.0" radiusX="93.0" radiusY="93.0" startAngle="315.0" stroke="#ff008d" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="blue11" fill="#1f93ff00" layoutX="99.0" layoutY="80.0" length="90.0" radiusX="93.0" radiusY="93.0" startAngle="45.0" stroke="#fffe00" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="yellow11" fill="#1f93ff00" layoutX="99.0" layoutY="80.0" length="90.0" radiusX="93.0" radiusY="93.0" startAngle="135.0" stroke="#00ecff" strokeWidth="12.0" />
+                  <Arc id="circle1arc1" fx:id="pink11" fill="#1f93ff00" layoutX="99.0" layoutY="80.0" length="90.0" radiusX="93.0" radiusY="93.0" startAngle="225.0" stroke="#fffe00" strokeWidth="12.0" />
+
+               </children>
+
+            </Pane>
+            <ImageView fx:id="pause" fitHeight="77.0" fitWidth="74.0" layoutX="414.0" layoutY="548.0" onMousePressed="#pauseclicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/pause%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="settings" fitHeight="77.0" fitWidth="74.0" layoutX="581.0" layoutY="548.0" onMousePressed="#settingclicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/setting.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="infintypane" layoutX="249.0" layoutY="249.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="startnewgame" fitHeight="58.0" fitWidth="73.0" layoutX="69.0" layoutY="73.0" onMousePressed="#startnewgame" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/infinite.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fx:id="exit" fitHeight="52.0" fitWidth="58.0" layoutX="641.0" layoutY="14.0" onMousePressed="#closewindow" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/remove.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="gifts" fitHeight="51.0" fitWidth="52.0" layoutX="14.0" layoutY="15.0" onMousePressed="#opengifts" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/giftbox.png" />
+               </image>
+            </ImageView>
+
+           
+
+         </children></AnchorPane>
+   </right>
+
+</BorderPane>

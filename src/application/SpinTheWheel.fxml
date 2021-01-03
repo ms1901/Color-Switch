@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="800.0" minWidth="700.0" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SpinWheelcontroller">
+   <children>
+      <Label layoutX="117.0" layoutY="20.0" prefHeight="93.0" prefWidth="497.0" style="-fx-background-color: black;" text="Wheel of fortune" textFill="#db4242">
+         <font>
+            <Font name="Baskerville Old Face" size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="WheelResultLabel" layoutX="132.0" layoutY="573.0" prefHeight="70.0" prefWidth="481.0" textFill="#fff9f9">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Pane fx:id="wheel" layoutX="124.0" layoutY="143.0" onMousePressed="#StopRotation" prefHeight="430.0" prefWidth="449.0">
+         <children>
+            <ImageView fx:id="SpinWheelImage" fitHeight="408.0" fitWidth="437.0" layoutX="20.0" layoutY="11.0" onMousePressed="#StopRotation" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/PinClipart.com_clipart-wheel-of-fortune_1566135.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="yellow" fill="#1f93ff00" layoutX="181.0" layoutY="58.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="light_green" fill="#1f93ff00" layoutX="266.0" layoutY="59.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="red" fill="#1f93ff00" layoutX="68.0" layoutY="172.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="dark_green" fill="#1f93ff00" layoutX="341.0" layoutY="100.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="blue" fill="#1f93ff00" layoutX="382.0" layoutY="172.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="dark_pink" fill="#1f93ff00" layoutX="68.0" layoutY="255.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="pink" fill="#1f93ff00" layoutX="111.0" layoutY="327.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="orange" fill="#1f93ff00" layoutX="109.0" layoutY="100.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="blue_shade" fill="#1f93ff00" layoutX="341.0" layoutY="327.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="purple" fill="#1f93ff00" layoutX="266.0" layoutY="375.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fx:id="darkpurple" fill="#1f93ff00" layoutX="179.0" layoutY="375.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fitHeight="60.0" fitWidth="74.0" layoutX="194.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/star.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="dark_blue" fill="#1f93ff00" layoutX="382.0" layoutY="255.0" radius="41.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Line fx:id="stick" endX="91.79998779296875" endY="-64.80001831054688" layoutX="242.0" layoutY="250.0" startX="91.79998779296875" startY="-150.20001220703125" stroke="#fefff6" strokeLineCap="ROUND" strokeWidth="10.0" />
+      <Circle fill="WHITE" layoutX="66.0" layoutY="61.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="home" fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="31.0" onMousePressed="#backhome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/house-black-silhouette-without-door.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

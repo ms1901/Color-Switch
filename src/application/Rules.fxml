@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Rulescontroller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebff55" height="119.0" layoutX="-6.0" stroke="BLACK" strokeType="INSIDE" width="712.0" />
+      <Circle fill="WHITE" layoutX="98.0" layoutY="59.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="backtomainmenu" fitHeight="43.0" fitWidth="42.0" layoutX="77.0" layoutY="38.0" onMousePressed="#backtomenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/house-black-silhouette-without-door.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="231.0" layoutY="28.0" prefHeight="60.0" prefWidth="285.0" text="How to play?" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="50.0" />
+         </font>
+      </Label>
+      <Pane layoutX="61.0" layoutY="150.0" prefHeight="579.0" prefWidth="578.0">
+         <children>
+            <Rectangle arcHeight="30.0" arcWidth="40.0" fill="#e51773" height="484.0" layoutX="7.0" layoutY="31.0" stroke="BLACK" strokeType="INSIDE" width="552.0" />
+            <Rectangle arcHeight="30.0" arcWidth="40.0" height="361.0" layoutX="46.0" layoutY="93.0" opacity="0.17" stroke="BLACK" strokeType="INSIDE" width="472.0" />
+            <Label layoutX="58.0" layoutY="155.0" prefHeight="42.0" prefWidth="462.0" text="1) Tap,Tap,Tap to get the ball past each obstacle." textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="229.0" prefHeight="42.0" prefWidth="462.0" text="2) Follow color pattern to cross each obstacle." textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="298.0" prefHeight="42.0" prefWidth="462.0" text="3) Timing and Patience are the keys to victory." textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="367.0" prefHeight="42.0" prefWidth="462.0" text="4) Earn stars to continue playing." textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="Base" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="700.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SingleCircleController">
+ <children>
+      <AnchorPane layoutX="-6.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: transparent;">
+         <children>
+            <Pane fx:id="obstaclepane" layoutX="274.0" layoutY="89.0" prefHeight="222.0" prefWidth="192.0" style="-fx-background-color: transparent;">
+               <children>
+                  <Arc fx:id="arc1" fill="#2197ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="135.0" stroke="#8300ff" strokeLineCap="BUTT" strokeWidth="20.0" />
+                  <Arc fx:id="arc2" fill="#2197ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="225.0" stroke="#ff0055" strokeLineCap="BUTT" strokeWidth="20.0" />
+                  <Arc fx:id="arc3" fill="#2197ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="120.0" radiusY="120.0" startAngle="45.0" stroke="#fffa00" strokeLineCap="BUTT" strokeWidth="20.0" />
+                  <Arc fx:id="arc4" fill="#2167ff00" layoutX="95.0" layoutY="112.0" length="90.0" radiusX="120.0" radiusY="120.0" smooth="false" startAngle="315.0" stroke="#00fbff" strokeLineCap="BUTT" strokeWidth="20.0" />
+                  <ImageView fx:id="star" fitHeight="41.0" fitWidth="41.0" layoutX="76.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/star.png" />
+                     </image>
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </ImageView>
+                  <Circle fx:id="starcircle" fill="#1f93ff00" layoutX="96.0" layoutY="112.0" radius="21.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+               </children>
+            </Pane>
+            <ImageView fx:id="colorswitchball" fitHeight="41.0" fitWidth="41.0" layoutX="349.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/colour%20switch.png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="colorswitch" fill="#2197ff00" layoutX="369.0" layoutY="18.0" radius="18.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

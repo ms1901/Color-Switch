@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Ingamepausecontroller">
+   <children>
+      <AnchorPane layoutY="-11.0" prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: black;">
+         <children>
+            <Pane layoutX="12.0" layoutY="30.0" prefHeight="89.0" prefWidth="677.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="172.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN GAME MENU">
+                     <font>
+                        <Font name="Baskerville Old Face" size="48.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="43.0" layoutY="143.0" prefHeight="495.0" prefWidth="621.0" style="-fx-background-color: #21ffbf;">
+               <children>
+                  <ImageView fitHeight="89.0" fitWidth="97.0" layoutX="447.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="pause" fitHeight="89.0" fitWidth="79.0" layoutX="460.0" layoutY="24.0" onMousePressed="#pausegame" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/play.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="replay" fitHeight="79.0" fitWidth="89.0" layoutX="460.0" layoutY="147.0" onMousePressed="#replay" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/update-arrow.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="exit" fitHeight="89.0" fitWidth="97.0" layoutX="451.0" layoutY="250.0" onMousePressed="#exittomainmenu" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/exit.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="57.0" layoutY="250.0" prefHeight="89.0" prefWidth="350.0" text="EXIT TO MENU">
+                     <font>
+                        <Font name="Baskerville Old Face" size="45.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="57.0" layoutY="137.0" prefHeight="89.0" prefWidth="350.0" text="RESTART GAME">
+                     <font>
+                        <Font name="Baskerville Old Face" size="45.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="66.0" layoutY="24.0" prefHeight="89.0" prefWidth="350.0" text="PLAY">
+                     <font>
+                        <Font name="Baskerville Old Face" size="45.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="57.0" layoutY="353.0" prefHeight="89.0" prefWidth="350.0" text="SAVE GAME">
+                     <font>
+                        <Font name="Baskerville Old Face" size="45.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="saveicon" fitHeight="79.0" fitWidth="79.0" layoutX="465.0" layoutY="358.0" onMousePressed="#SaveGame" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/direct-download.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="43.0" layoutY="678.0" prefHeight="89.0" prefWidth="621.0" style="-fx-background-color: white;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
